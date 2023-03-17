@@ -25,6 +25,7 @@ data "aci_tenant" "tenant" {
 
 resource "aci_tenant" "tenant" {
   name = var.tenant
+  description = var.tenant_descr
 }
 
 resource "aci_vrf" "vrf" {
