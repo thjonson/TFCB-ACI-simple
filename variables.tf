@@ -17,3 +17,6 @@ variable "vrf" {
 variable "app_prof" {
   description = "Name of the Application Profile"
 }
+variable "tenant_descr" {
+  description = "Description for the tenant"
+}
